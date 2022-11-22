@@ -11,6 +11,7 @@ body {
 h1, h2 {
     font-family: 'Alata', sans-serif;
     margin: 0;
+    color: white;
 }
 
 header {
@@ -19,11 +20,14 @@ header {
 }
 
 #title {
-    color: white;
+    padding: 20px;
+    font-size: 50px;
 }
 
-.genres {
-    display: flex;
+#artist-img {
+    width: 400px;
+    margin-left: 30px;
+    border-radius: 10px;
 }
 
 .genre {
@@ -33,5 +37,64 @@ header {
     color: white;
     padding: 15px;
     border-radius: 15px;
-    margin: 10px;
+    /* margin: 10px; */
+}
+
+#top {
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#right p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+#right img {
+    width: 200px;
+}
+
+.genres {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.albums {
+    display: flex;
+    justify-content: center;
+}
+
+.album {
+    background-color: #000000;
+    color: white;
+    margin: 20px;
+    border-radius: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.album img{
+    width: 100px;
+}
+
+.album:hover {
+    box-shadow: 0 0 10px 0.5px white;
+    cursor: pointer;
+}
+
+#album-title {
+    margin: 20px;
+    text-align: center;
 }
