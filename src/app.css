@@ -1,0 +1,8 @@
+.artist {
+    background-color: rgb(99, 45, 21);
+    color: white;
+}
+
+.artist img {
+    width: 200px;
+}
