@@ -89,3 +89,17 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
+
+.genres {
+    display: flex;
+}
+
+.genre {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px;
+}
