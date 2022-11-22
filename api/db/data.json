@@ -16,6 +16,91 @@
 
                 }
             ]
+        },
+        {
+            "id": 2,
+            "name": "Frank Ocean",
+            "image": "https://www.theaudiodb.com/images/media/artist/thumb/tvuvru1340982366.jpg",
+            "logo": "https://www.theaudiodb.com/images/media/artist/logo/frank-ocean-4ee8e4d7160af.png",
+            "cutout": "",
+            "bio": "",
+            "label_image": "",
+            "genres": ["R&B", "Hip-Hop", "Pop"],
+            "albums": [
+                {
+                    "name": "Blonde",
+                    "release_year": 2016
+
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Nipsey Hussle",
+            "image": "https://www.theaudiodb.com/images/media/artist/thumb/rssuvv1409717727.jpg",
+            "logo": "",
+            "cutout": "",
+            "bio": "",
+            "label_image": "",
+            "genres": ["Hip-Hop", "Rap"],
+            "albums": [
+                {
+                    "name": "Victory Lap",
+                    "release_year": 2018
+
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Nas",
+            "image": "https://www.theaudiodb.com/images/media/artist/thumb/vpxqtu1484769349.jpg",
+            "logo": "https://www.theaudiodb.com/images/media/artist/logo/h830nd1628509561.png",
+            "cutout": "https://www.theaudiodb.com/images/media/artist/cutout/wrtch81641422823.png",
+            "bio": "",
+            "label_image": "https://www.theaudiodb.com/images/media/label/logo/def-jam-recordings-4fdf9045c489d.png",
+            "genres": ["Hip-Hop", "Rap"],
+            "albums": [
+                {
+                    "name": "King's Disease III",
+                    "release_year": 2022
+
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "ASAP Rocky",
+            "image": "https://www.theaudiodb.com/images/media/artist/thumb/quxtwt1409502308.jpg",
+            "logo": "https://www.theaudiodb.com/images/media/artist/logo/asap-rocky-4fcecaaa6cecd.png",
+            "cutout": "",
+            "bio": "",
+            "label_image": "https://www.theaudiodb.com/images/media/label/logo/vgnrnk1641069524.png",
+            "genres": ["Hip-Hop", "Rap", "Trap"],
+            "albums": [
+                {
+                    "name": "Testing",
+                    "release_year": 2018
+
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Ed Sheeran",
+            "image": "https://www.theaudiodb.com/images/media/artist/thumb/ysytsw1498815745.jpg",
+            "logo": "https://www.theaudiodb.com/images/media/artist/logo/hvz3no1641557154.png",
+            "cutout": "https://www.theaudiodb.com/images/media/artist/cutout/ef6d0c1641422718.png",
+            "bio": "",
+            "label_image": "https://www.theaudiodb.com/images/media/label/logo/xuxqqq1480683152.png",
+            "genres": ["Pop", "Folk-Pop", "Soft Rock"],
+            "albums": [
+                {
+                    "name": "=",
+                    "release_year": 2021
+
+                }
+            ]
         }
     ]
 }
