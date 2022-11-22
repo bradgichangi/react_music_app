@@ -1,0 +1,21 @@
+{
+    "artists": [
+        {
+            "id": 1,
+            "name": "Drake",
+            "image": "https://www.theaudiodb.com/images/media/artist/thumb/vpxqtu1484769349.jpg",
+            "logo": "https://www.theaudiodb.com/images/media/artist/logo/xtryww1359656364.png",
+            "cutout": "https://www.theaudiodb.com/images/media/artist/cutout/l2xnfm1641903083.png",
+            "bio": "",
+            "label_image": "https://www.theaudiodb.com/images/media/label/logo/vwptyr1532902436.png",
+            "genres": ["Hip-Hop", "Rap", "R&B", "Pop"],
+            "albums": [
+                {
+                    "name": "Her Loss",
+                    "release_year": 2022
+
+                }
+            ]
+        }
+    ]
+}
