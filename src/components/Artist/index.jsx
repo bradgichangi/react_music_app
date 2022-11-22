@@ -3,13 +3,15 @@ import { Albums } from '../'
 
 
 const Artist = ({data}) => {
+
+    function displayArtist (name) {
+        console.log(name)
+    }
+
     return (
-        <div className="artist">
+        <div className="artist" onClick={displayArtist(data.name)} >
             <h2>{data.name}</h2>
-            <img src={data.img} alt={data.name} />
-            <p>{data.bio}</p>
-            <p>{data.genre}</p>
-            <p>Albums: {data.albums.length}</p>
+            <img src={data.img} alt={data.name}></img>
         </div>
     )
 }

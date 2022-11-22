@@ -1,25 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
 body {
-    background-color: rgb(31, 57, 83);
+    background: linear-gradient(-45deg, #000000, #5f0a09, #000000, #8a1137);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Alata', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.315);
+    padding: 15px;
+}
+
+#title {
+    color: white;
 }
 
 .artist-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .artist {
     background-color: rgba(224, 224, 224, 0.24);
     color: white;
     border-radius: 20px;
-    width: 30%;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
+    padding-bottom: 30px;
+}
+
+.artist:hover {
+    box-shadow: 0 0 10px 0.5px white;
+    cursor: pointer;
+}
+
+.artist h2 {
+    padding: 15px;
+}
+
+.artist p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .artist img {
     object-fit: cover;
     width: 200px;
     height: 200px;
+    border-radius: 10px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: #000000; */
+    margin: 15px;
+}
+
+#search-bar {
+    background-color: #0000004d;
+    border: none;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    width: 60%;
+    height: 20px;
+}
+
+#search-button {
+    background-color: #8a1137;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.genres {
+    display: flex;
+}
+
+.genre {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px;
 }

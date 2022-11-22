@@ -2,7 +2,7 @@ import React from 'react'
 import { Artist } from '../'
 
 
-const ArtistList = () => {
+const ArtistList = ({ searchInput }) => {
 
     const artistData = [
         {name: 'Drake', bio: '', img: 'https://media1.popsugar-assets.com/files/thumbor/zan-t_Me63if8oqWYE9ENiPLlhA/0x224:2826x3050/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/02/11/894/n/1922398/87f6bb525e430e7bd44e40.22278576_/i/Drake.jpg', genre: 'Rap', albums: []},
@@ -12,9 +12,9 @@ const ArtistList = () => {
     ]
 
     return (
-        <ul className='artist-list'>
+        <div className='artist-list'>
             { artistData.map((artist, index) => <Artist key = {index} data = {artist}/>) }
-        </ul>
+        </div>
     )
 }
 
