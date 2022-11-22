@@ -12,9 +12,9 @@ const ArtistList = () => {
     ]
 
     return (
-        <ul className='artist-list'>
+        <div className='artist-list'>
             { artistData.map((artist, index) => <Artist key = {index} data = {artist}/>) }
-        </ul>
+        </div>
     )
 }
 

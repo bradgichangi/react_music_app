@@ -10,7 +10,9 @@ const App = () => {
 
     return (
         <>
-            <h1>SpeakerBox</h1>
+            <header>
+                <h1 id='title'>SpeakerBox</h1>
+            </header>
             <ArtistList />
         </>
     )
