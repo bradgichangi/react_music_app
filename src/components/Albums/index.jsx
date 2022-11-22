@@ -1,13 +1,14 @@
 import React from 'react'
-
+import { Track } from '../'
 
 const Albums = ({data}) => {
     return (
-        <div className="artist">
-            <h2>Album Name</h2>
-            <p>Genre</p>
-            <p>Date</p>
-            <p>Track list here</p>
+        <div className="album">
+            <h2>{data.name}</h2>
+            <img src={data.img} alt={data.name} />
+            <p>{data.genre}</p>
+            <p>{data.date}</p>
+            { albumData.map((track, index) => <Track key = {index} data = {track}/>) }
         </div>
     )
 }
