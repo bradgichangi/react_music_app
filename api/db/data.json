@@ -11,7 +11,8 @@
             "genres": ["Hip-Hop", "Rap", "R&B", "Pop"],
             "albums": [
                 {
-                    "name": "Her Loss",
+                    "name": "Honestly, Nevermind",
+                    "cover": "https://www.theaudiodb.com/images/media/album/3dthumb/d37r9i1655729356.png/preview",
                     "release_year": 2022
 
                 }
@@ -29,6 +30,7 @@
             "albums": [
                 {
                     "name": "Blonde",
+                    "cover": "https://www.theaudiodb.com/images/media/album/3dthumb/hmgh081605354797.png/preview",
                     "release_year": 2016
 
                 }
@@ -46,6 +48,7 @@
             "albums": [
                 {
                     "name": "Victory Lap",
+                    "cover": "https://www.theaudiodb.com/images/media/album/thumb/wpsstq1556165530.jpg/preview",
                     "release_year": 2018
 
                 }
@@ -63,6 +66,7 @@
             "albums": [
                 {
                     "name": "King's Disease III",
+                    "cover": "https://www.theaudiodb.com/images/media/album/3dthumb/kpqnrk1669112978.png/preview",
                     "release_year": 2022
 
                 }
@@ -80,6 +84,7 @@
             "albums": [
                 {
                     "name": "Testing",
+                    "cover": "https://www.theaudiodb.com/images/media/album/thumb/7fp2351640847812.jpg/preview",
                     "release_year": 2018
 
                 }
@@ -97,6 +102,7 @@
             "albums": [
                 {
                     "name": "=",
+                    "cover": "https://www.theaudiodb.com/images/media/album/3dthumb/2sfk9j1637753624.png/preview",
                     "release_year": 2021
 
                 }
