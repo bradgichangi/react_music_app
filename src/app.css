@@ -31,13 +31,14 @@ header {
 .artist {
     background-color: rgba(224, 224, 224, 0.24);
     color: white;
-    border-radius: 20px;
-    width: 300px;
+    /* width: 300px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
+    position: relative;
+    border-radius: 10px;
 }
 
 .artist:hover {
@@ -45,9 +46,40 @@ header {
     cursor: pointer;
 }
 
-.artist h2 {
-    padding: 15px;
+.artist img {
+    display: block;
+    width: 100%;
 }
+
+.overlay {
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000070;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+/* 
+.artist img:hover {
+    filter: brightness(50%);
+} */
+
+/* .artist h2 {
+    padding: 15px;
+    position: absolute;
+} */
 
 .artist p {
     font-family: 'Montserrat', sans-serif;

@@ -10,8 +10,10 @@ const Artist = ({data}) => {
 
     return (
         <div className="artist" onClick={displayArtist(data.name)} >
-            <h2>{data.name}</h2>
             <img src={data.img} alt={data.name}></img>
+            <div className="overlay">
+                <h2>{data.name}</h2>
+            </div>
         </div>
     )
 }
