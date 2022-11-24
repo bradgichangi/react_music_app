@@ -21,7 +21,7 @@ const Artist = ({ data }) => {
                         {data.genres.map(genre => <div className="genre">{genre}</div>)}
                     </div>
                     <p>Record Label</p>
-                    <img src={ data.label_image} alt="" />
+                    {data.label_image  ? <img src={data.label_image} alt="" /> : <h2>N/A</h2>}
                 </section>
 
             </div>
@@ -30,9 +30,12 @@ const Artist = ({ data }) => {
                 {data.albums.map(album => {
                     return (
                         <div className='album'>
-                            <h3>{album.name}</h3>
                             <img src={album.cover} alt={album.name} />
-                            <p>{album.release_year}</p>
+                            {/*  */}
+                            <div className="album-overlay">
+                                <h3>{album.name}</h3>
+                                <p>({album.release_year})</p>
+                            </div>
                         </div>
                     )
                 })}
