@@ -38,7 +38,7 @@ header {
     margin: 20px;
     /* padding-bottom: 30px; */
     position: relative;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .artist:hover {
@@ -46,14 +46,9 @@ header {
     cursor: pointer;
 }
 
-.artist img {
-    display: block;
-    width: 100%;
-}
-
 .overlay {
     position: absolute;
-    border-radius: 10px;
+    border-radius: 5px;
     top: 0;
     left: 0;
     width: 100%;
@@ -89,7 +84,7 @@ header {
     object-fit: cover;
     width: 200px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .search-form {

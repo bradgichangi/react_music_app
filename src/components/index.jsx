@@ -1,5 +1,6 @@
 export { default as Search } from './Search'
-export { default as ArtistList } from './ArtistList'
 export { default as Artist } from './Artist'
+export { default as ArtistList } from './ArtistList'
+export { default as ArtistCard } from './ArtistCard'
 export { default as Albums } from './Albums'
 export { default as Track } from './Track'
