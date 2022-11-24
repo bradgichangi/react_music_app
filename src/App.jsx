@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Header from './layouts/Header';
 import ArtistView from "./pages/ArtistView";
+import Artists from './pages/Artists';
 import './app.css'
 
 
@@ -126,8 +127,10 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Header />} >
             <Route index element={<Home artistData={artistData} />} />
-            <Route path="artist/:name" element={<ArtistView artistData={artistData} />} />    
+            <Route path="artists" element={<Artists artistData={artistData} />} />
+            <Route path="artists/:name" element={<ArtistView artistData={artistData} />} />    
           </Route>
+          <Route path="*" element={<h1>404 Page Not Found</h1>} ></Route>
         </Routes>
         </BrowserRouter>
       );

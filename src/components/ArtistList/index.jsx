@@ -13,7 +13,7 @@ const ArtistList = ({ artistData, searchInput }) => {
                 artistData
                     .filter(artist => artist.name.toLowerCase().includes(searchInput))
                     .map((artist, index) =>
-                        <Link key={index}  to={ `artist/${artist.name}` }><ArtistCard key={index} data={artist} /></Link>)
+                        <Link key={index}  to={ `/artists/${artist.name}` }><ArtistCard key={index} data={artist} /></Link>)
             }
         </div>
     )
