@@ -12,33 +12,30 @@ const Artist = ({ data }) => {
             <h1 id='title'>{data.name}</h1>
             <div id='top'>
                 <section id='left'>
-                    <img id='artist-img' src='https://www.theaudiodb.com/images/media/artist/thumb/vpxqtu1484769349.jpg' alt='' />
+                    <img id='artist-img' src={data.image} alt='' />
                 </section>
 
                 <section id='right'>
                     <p>Genre</p>
                     <div className='genres'>
-                        <div className="genre">Hip-Hop</div>
-                        <div className="genre">Rap</div>
-                        <div className="genre">R&B</div>
+                        {data.genres.map(genre => <div className="genre">{genre}</div>)}
                     </div>
                     <p>Record Label</p>
-                    <img src="https://www.theaudiodb.com/images/media/label/logo/vwptyr1532902436.png" alt="" />
+                    <img src={ data.label_image} alt="" />
                 </section>
 
             </div>
             <h2 id='album-title'>Albums</h2>
             <div className='albums'>
-                <div className='album'>
-                    <h3>Her Loss</h3>
-                    <img src="https://i.scdn.co/image/ab67616d0000b27302854a7060fccc1a66a4b5ad" alt="" />
-                    <p>2022</p>
-                </div>
-                <div className='album'>
-                    <h3>Honestly, Nevermind</h3>
-                    <img src="https://media.pitchfork.com/photos/62ac785ab2cec3cf761512c5/1:1/w_600/Drake-Honestly-Nevermind.jpg" alt="" />
-                    <p>2022</p>
-                </div>
+                {data.albums.map(album => {
+                    return (
+                        <div className='album'>
+                            <h3>{album.name}</h3>
+                            <img src={album.cover} alt={album.name} />
+                            <p>{album.release_year}</p>
+                        </div>
+                    )
+                })}
             </div>
         </>
     )
