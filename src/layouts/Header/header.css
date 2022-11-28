@@ -1,0 +1,27 @@
+header {
+    background-color: rgba(0, 0, 0, 0.315);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+header a {
+    color: rgb(126, 126, 126);
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+header a:hover {
+    color: red;
+}
+
+.active {
+    color: white;
+}
