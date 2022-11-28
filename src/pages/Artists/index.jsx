@@ -3,11 +3,11 @@ import { ArtistList } from '../../components'
 
 
 
-const Artists = ({ artistData }) => {
+const Artists = () => {
 
     return (
         <>
-            <ArtistList artistData={artistData} searchInput={''} />
+            <ArtistList searchInput={''} />
         </>
     )
 }
