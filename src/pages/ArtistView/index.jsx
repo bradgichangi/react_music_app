@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { Artist, ArtistList, Search } from '../../components'
+import { useDispatch, useSelector } from 'react-redux'
 import './artist.css'
 
 
-const ArtistView = ({ artistData }) => {
+const ArtistView = () => {
 
+    const artistData = useSelector(state => state.arr)
     const params = useParams()
 
     return (

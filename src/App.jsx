@@ -145,7 +145,7 @@ const App = () => {
           <Route path="/" element={<Header />} >
             <Route index element={<Home />} />
             <Route path="artists" element={<Artists />} />
-            <Route path="artists/:name" element={<ArtistView artistData={artistData} />} />    
+            <Route path="artists/:name" element={<ArtistView />} />    
           </Route>
           <Route path="*" element={<h1>404 Page Not Found</h1>} ></Route>
         </Routes>
