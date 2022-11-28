@@ -76,15 +76,55 @@ a {
     position: absolute;
 } */
 
+#left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+#left p {
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+}
+
+#label-logo {
+    width: 200px;
+}
+
+#right {
+    width: 60%;
+
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#right p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    width: 80%;
+    padding: 50px;
+}
+
+
 .artist p {
     font-family: 'Montserrat', sans-serif;
 }
 
-.artist img {
-    object-fit: cover;
-    width: 200px;
-    height: 200px;
+#artist-img {
+    width: 400px;
     border-radius: 5px;
+}
+
+#artist-bio {
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+    width: 60%;
 }
 
 .search-form {

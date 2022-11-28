@@ -9,20 +9,21 @@ const Artist = ({ data }) => {
 
     return (
         <>
-            <h1 id='title'>{data.name}</h1>
+            
             <div id='top'>
                 <section id='left'>
+                <h1 id='title'>{data.name}</h1>
                     <img id='artist-img' src={data.image} alt='' />
-                    <p id='artist-bio'>{data.bio}</p>
-                </section>
-
-                <section id='right'>
                     <p>Genre</p>
                     <div className='genres'>
                         {data.genres.map(genre => <div className="genre">{genre}</div>)}
                     </div>
                     <p>Record Label</p>
-                    {data.label_image  ? <img src={data.label_image} alt="" /> : <h2>N/A</h2>}
+                    {data.label_image  ? <img id='label-logo' src={data.label_image} alt="" /> : <h2>N/A</h2>}
+                </section>
+
+                <section id='right'>
+                    <p id='artist-bio'>{data.bio}</p>
                 </section>
 
             </div>

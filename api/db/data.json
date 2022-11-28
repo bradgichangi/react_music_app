@@ -6,14 +6,38 @@
             "image": "https://www.theaudiodb.com/images/media/artist/thumb/vpxqtu1484769349.jpg",
             "logo": "https://www.theaudiodb.com/images/media/artist/logo/xtryww1359656364.png",
             "cutout": "https://www.theaudiodb.com/images/media/artist/cutout/l2xnfm1641903083.png",
-            "bio": "",
+            "bio": "Aubrey Drake Graham[4] (born October 24, 1986) is a Canadian rapper, singer, and actor.[5] An influential figure in contemporary popular music, Drake has been credited for popularizing singing and R&B sensibilities in hip hop. He gained recognition by starring as Jimmy Brooks in the CTV teen drama series Degrassi: The Next Generation (2001–08) and subsequently pursued a career in music releasing his debut mixtape Room for Improvement in 2006. He released the mixtapes Comeback Season (2007) and So Far Gone (2009) before signing with Young Money Entertainment.[6] Drake's first three albums, Thank Me Later (2010), Take Care (2011) and Nothing Was the Same (2013), were all critical successes and propelled him to the forefront of hip hop.[7] His fourth album, Views (2016), saw exploration of dancehall and stood atop the Billboard 200 for 13 non-consecutive weeks, making it the first album by a male artist to do so in over a decade, and featured the chart record-setting lead single \"One Dance\".[8] In 2018, Drake released the double album Scorpion, which contained the Billboard Hot 100 number-one singles \"God's Plan\", \"Nice for What\", and \"In My Feelings\".[9] Drake's widely anticipated sixth album, Certified Lover Boy (2021), achieved nine top 10 hits on the Hot 100, setting a new record at the time for the most US top-ten hits from one album, with its lead single \"Way 2 Sexy\" reaching number one.[10] In 2022, Drake released his house-inspired seventh album Honestly, Nevermind and his first collaborative album, Her Loss, with 21 Savage. Known for frequent accompanying releases to his albums, Drake achieved critical and commercial success with the mixtapes If You're Reading This It's Too Late (2015) and More Life (2017).",
             "label_image": "https://www.theaudiodb.com/images/media/label/logo/vwptyr1532902436.png",
             "genres": ["Hip-Hop", "Rap", "R&B", "Pop"],
             "albums": [
                 {
-                    "name": "Honestly, Nevermind",
-                    "cover": "https://www.theaudiodb.com/images/media/album/3dthumb/d37r9i1655729356.png/preview",
+                    "name": "Her Loss",
+                    "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Her_Loss.jpeg/220px-Her_Loss.jpeg",
                     "release_year": 2022
+
+                },
+                {
+                    "name": "Honestly, Nevermind",
+                    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c7/Honestly%2C_Nevermind_-_Drake.png",
+                    "release_year": 2022
+
+                },
+                {
+                    "name": "Certified Lover Boy",
+                    "cover": "https://upload.wikimedia.org/wikipedia/en/7/79/Drake_-_Certified_Lover_Boy.png",
+                    "release_year": 2022
+
+                },
+                {
+                    "name": "Scorpion",
+                    "cover": "https://upload.wikimedia.org/wikipedia/en/9/90/Scorpion_by_Drake.jpg",
+                    "release_year": 2018
+
+                },
+                {
+                    "name": "Views",
+                    "cover": "https://upload.wikimedia.org/wikipedia/en/a/af/Drake_-_Views_cover.jpg",
+                    "release_year": 2016
 
                 }
             ]
@@ -30,8 +54,20 @@
             "albums": [
                 {
                     "name": "Blonde",
-                    "cover": "https://www.theaudiodb.com/images/media/album/3dthumb/hmgh081605354797.png/preview",
+                    "cover": "https://upload.wikimedia.org/wikipedia/en/a/a0/Blonde_-_Frank_Ocean.jpeg",
                     "release_year": 2016
+
+                },
+                {
+                    "name": "Channel ORANGE",
+                    "cover": "https://upload.wikimedia.org/wikipedia/en/2/28/Channel_ORANGE.jpg",
+                    "release_year": 2012
+
+                },
+                {
+                    "name": "Nostalgia, ULTRA",
+                    "cover": "https://media.pitchfork.com/photos/5929adeb9d034d5c69bf444e/1:1/w_600/084ee64d.jpg",
+                    "release_year": 2011
 
                 }
             ]
