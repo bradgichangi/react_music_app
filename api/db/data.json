@@ -48,7 +48,7 @@
             "image": "https://www.theaudiodb.com/images/media/artist/thumb/tvuvru1340982366.jpg",
             "logo": "https://www.theaudiodb.com/images/media/artist/logo/frank-ocean-4ee8e4d7160af.png",
             "cutout": "",
-            "bio": "",
+            "bio": "Christopher Francis \"Frank\" Ocean (born Christopher Edwin Breaux; October 28, 1987),[3][4] is an American singer, songwriter, and rapper. His works are noted by music critics for featuring avant-garde styles and introspective, elliptical lyrics.[5][6] Ocean has won two Grammy Awards and a Brit Award for International Male Solo Artist among other accolades, and his two studio albums have been listed on Rolling Stone's 500 Greatest Albums of All Time (2020). Ocean began his musical career as a ghostwriter, prior to joining the hip hop collective Odd Future in 2010. The following year, he released his first mixtape, Nostalgia, Ultra, and subsequently secured a recording contract with Def Jam Recordings. His first studio album, the eclectic Channel Orange (2012), incorporated R&B and soul styles. At the 2013 Grammy Awards, Channel Orange was nominated for Album of the Year and won Best Urban Contemporary Album; one of its singles, \"Thinkin Bout You\", was nominated for Record of the Year. He was named by Time as one of the world's most influential people in 2013",
             "label_image": "",
             "genres": ["R&B", "Hip-Hop", "Pop"],
             "albums": [
@@ -78,7 +78,7 @@
             "image": "https://www.theaudiodb.com/images/media/artist/thumb/rssuvv1409717727.jpg",
             "logo": "",
             "cutout": "",
-            "bio": "",
+            "bio": "Airmiess Joseph Asghedom (August 15, 1985 – March 31, 2019), known professionally as Nipsey Hussle (often stylized as Nipsey Hu$$le), was an American rapper. Emerging from the West Coast hip hop scene in the mid-2000s, Hussle independently released his debut mixtape, Slauson Boy Volume 1, to moderate local success, which led to him being signed to Cinematic Music Group and Epic Records. Hussle became known for his numerous mixtapes, including his Bullets Ain't Got No Name series, The Marathon, The Marathon Continues, and Crenshaw, the last of which American rapper Jay-Z bought 100 copies for $100 each. After much delay, his debut studio album Victory Lap was released in 2018 to critical acclaim and commercial success, and was nominated for the Best Rap Album at the 61st Grammy Awards in 2019. At the 62nd Grammy Awards in 2020, two posthumous Grammy Awards for the songs \"Racks in the Middle\" and \"Higher\" were awarded to Hussle in the Best Rap Performance and Best Rap/Sung Performance categories respectively.[2]",
             "label_image": "",
             "genres": ["Hip-Hop", "Rap"],
             "albums": [
@@ -86,6 +86,18 @@
                     "name": "Victory Lap",
                     "cover": "https://www.theaudiodb.com/images/media/album/thumb/wpsstq1556165530.jpg/preview",
                     "release_year": 2018
+
+                },
+                {
+                    "name": "The Marathon Continues",
+                    "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/TheMarathonContinues.jpg/220px-TheMarathonContinues.jpg",
+                    "release_year": 2011
+
+                },
+                {
+                    "name": "The Marathon",
+                    "cover": "https://upload.wikimedia.org/wikipedia/en/6/6d/NipseyHussleTheMarathon.jpg",
+                    "release_year": 2010
 
                 }
             ]
@@ -96,14 +108,38 @@
             "image": "https://www.theaudiodb.com/images/media/artist/thumb/qxutws1340475988.jpg",
             "logo": "https://www.theaudiodb.com/images/media/artist/logo/h830nd1628509561.png",
             "cutout": "https://www.theaudiodb.com/images/media/artist/cutout/wrtch81641422823.png",
-            "bio": "",
+            "bio": "Nasir bin Olu Dara Jones (born September 14, 1973), better known by his stage name Nas (/nɑːz/), is an American rapper. Rooted in East Coast hip hop, he is regarded as one of the greatest rappers of all time.[1][2][3] The son of jazz musician Olu Dara, Jones's musical career began in 1989 as he adopted the moniker of \"Nasty Nas\" and recorded demos for Large Professor. He was later featured on the 1991 single \"Live at the Barbeque\" by Main Source. Nas's debut album, Illmatic (1994), received universal acclaim upon release, and is considered to be one of the greatest hip hop albums of all time;[4][5] in 2021, the album was inducted into the Library of Congress's National Recording Registry.[6] His second album It Was Written (1996) debuted atop the Billboard 200 and charted for four consecutive weeks; the album, along with its single \"If I Ruled the World (Imagine That)\" (featuring Lauryn Hill), catapulted Nas into international success.[7] Both released in 1999, Nas's albums I Am and Nastradamus were criticized as inconsistent and too commercially oriented, and critics and fans feared that his output was declining in quality.",
             "label_image": "https://www.theaudiodb.com/images/media/label/logo/def-jam-recordings-4fdf9045c489d.png",
             "genres": ["Hip-Hop", "Rap"],
             "albums": [
                 {
                     "name": "King's Disease III",
-                    "cover": "https://www.theaudiodb.com/images/media/album/3dthumb/kpqnrk1669112978.png/preview",
+                    "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/King%27s_Disease_III.png/220px-King%27s_Disease_III.png",
                     "release_year": 2022
+
+                },
+                {
+                    "name": "King's Disease II",
+                    "cover": "https://media.pitchfork.com/photos/6102baea0f763fef3c3c6df1/1:1/w_600/Nas-Kings-Disease-II.jpg",
+                    "release_year": 2021
+
+                },
+                {
+                    "name": "Magic",
+                    "cover": "https://upload.wikimedia.org/wikipedia/en/a/a2/Nas-magic-cover.jpg",
+                    "release_year": 2021
+
+                },
+                {
+                    "name": "King's Disease",
+                    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1e/King%27s_Disease_by_Nas.jpg",
+                    "release_year": 2020
+
+                },
+                {
+                    "name": "NASIR",
+                    "cover": "https://pbs.twimg.com/media/DfsAdF2U8AAz1f_?format=jpg&name=small",
+                    "release_year": 2018
 
                 }
             ]
@@ -114,7 +150,7 @@
             "image": "https://www.theaudiodb.com/images/media/artist/thumb/quxtwt1409502308.jpg",
             "logo": "https://www.theaudiodb.com/images/media/artist/logo/asap-rocky-4fcecaaa6cecd.png",
             "cutout": "",
-            "bio": "",
+            "bio": "Rakim Athelaston Mayers[2] (born October 3, 1988), known professionally as ASAP Rocky, is an American rapper, music producer and record executive. Born and raised in Harlem, he embarked on his musical career as a member of the hip hop collective ASAP Mob, from which he adopted his moniker. In August 2011, Rocky's single \"Peso\" was leaked online and within weeks began receiving radio airplay.[3] Rocky released his debut mixtape Live. Love. A$AP, later that year to widespread critical acclaim. The success of what is considered his breakout project led to a joint venture record deal with Polo Grounds Music, RCA Records, and Sony Music Entertainment. His debut studio album Long. Live. A$AP (2013) debuted at number one on the Billboard 200 and was later certified double platinum by the Recording Industry Association of America (RIAA). The album was preceded by Rocky's breakout single, \"Fuckin' Problems\" (featuring Drake, 2 Chainz and Kendrick Lamar), which was nominated for Best Rap Song at the 2014 Grammy Awards. In 2015, Rocky released his second album, titled At. Long. Last. A$AP. The album was Rocky's second consecutive album to debut at number one on the Billboard 200 and received mostly positive reviews from music critics. The album's single, \"L$D\", was nominated for Best Music Video at the 2016 Grammy Awards. In 2018, Rocky released his third album, Testing, which peaked in the top five of several countries, including the Billboard 200.",
             "label_image": "https://www.theaudiodb.com/images/media/label/logo/vgnrnk1641069524.png",
             "genres": ["Hip-Hop", "Rap", "Trap"],
             "albums": [
@@ -122,6 +158,24 @@
                     "name": "Testing",
                     "cover": "https://www.theaudiodb.com/images/media/album/thumb/7fp2351640847812.jpg/preview",
                     "release_year": 2018
+
+                },
+                {
+                    "name": "At.Long.Last.A$AP",
+                    "cover": "https://www.theaudiodb.com/images/media/album/thumb/qwxxrv1433358878.jpg/preview",
+                    "release_year": 2015
+
+                },
+                {
+                    "name": "Long.Live.A$AP",
+                    "cover": "https://www.theaudiodb.com/images/media/album/thumb/wywuty1359092363.jpg/preview",
+                    "release_year": 2013
+
+                },
+                {
+                    "name": "Live.Love.A$AP",
+                    "cover": "https://www.theaudiodb.com/images/media/album/thumb/liveloveaap-4fcecac17764e.jpg/preview",
+                    "release_year": 2011
 
                 }
             ]
@@ -132,14 +186,38 @@
             "image": "https://www.theaudiodb.com/images/media/artist/thumb/ysytsw1498815745.jpg",
             "logo": "https://www.theaudiodb.com/images/media/artist/logo/hvz3no1641557154.png",
             "cutout": "https://www.theaudiodb.com/images/media/artist/cutout/ef6d0c1641422718.png",
-            "bio": "",
+            "bio": "Edward Christopher Sheeran MBE (born 17 February 1991) is an English singer-songwriter. Born in Halifax, West Yorkshire and raised in Framlingham, Suffolk, he began writing songs around the age of eleven. In early 2011, Sheeran independently released the extended play, No. 5 Collaborations Project. He signed with Asylum Records the same year. Sheeran's debut album, + (pronounced \"plus\"), was released in September 2011 and topped the UK Albums Chart. It contained his first hit single \"The A Team\". In 2012, Sheeran won the Brit Awards for Best British Male Solo Artist and British Breakthrough Act. Sheeran's second studio album, × (pronounced \"multiply\"), topped charts around the world upon its release in June 2014. It was named the second-best-selling album worldwide of 2015. In the same year, × won Album of the Year at the 2015 Brit Awards, and he received the Ivor Novello Award for Songwriter of the Year from the British Academy of Songwriters, Composers and Authors. A single from ×, \"Thinking Out Loud\", earned him the 2016 Grammy Awards for Song of the Year and Best Pop Solo Performance.",
             "label_image": "https://www.theaudiodb.com/images/media/label/logo/xuxqqq1480683152.png",
             "genres": ["Pop", "Folk-Pop", "Soft Rock"],
             "albums": [
                 {
                     "name": "=",
-                    "cover": "https://www.theaudiodb.com/images/media/album/3dthumb/2sfk9j1637753624.png/preview",
+                    "cover": "https://upload.wikimedia.org/wikipedia/en/c/cd/Ed_Sheeran_-_Equals.png",
                     "release_year": 2021
+
+                },
+                {
+                    "name": "÷",
+                    "cover": "https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png",
+                    "release_year": 2017
+
+                },
+                {
+                    "name": "X",
+                    "cover": "https://upload.wikimedia.org/wikipedia/en/a/ad/X_cover.png",
+                    "release_year": 2014
+
+                },
+                {
+                    "name": "+",
+                    "cover": "https://upload.wikimedia.org/wikipedia/en/3/3f/Ed_Sheeran_%2B_cover.png",
+                    "release_year": 2011
+
+                },
+                {
+                    "name": "Want Some?",
+                    "cover": "https://lastfm.freetls.fastly.net/i/u/ar0/adcd5da52f014700c77672e79ffbd880.jpg",
+                    "release_year": 2007
 
                 }
             ]
