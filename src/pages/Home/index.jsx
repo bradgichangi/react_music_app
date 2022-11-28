@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { ArtistList, Search } from '../../components'
-import SearchForm from '../../layouts/SearchForn'
+import SearchForm from '../../layouts/SearchForm'
 
 
-const Home = ({ artistData }) => {
+const Home = () => {
 
     const [searchInput, setSearchInput] = useState('')
 
     return (
         <>
             <SearchForm searchInput={searchInput} setSearchInput={setSearchInput} />
-            <ArtistList artistData={artistData} searchInput={searchInput} />
+            <ArtistList searchInput={searchInput} />
         </>
     )
 }

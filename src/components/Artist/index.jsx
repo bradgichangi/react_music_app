@@ -13,6 +13,7 @@ const Artist = ({ data }) => {
             <div id='top'>
                 <section id='left'>
                     <img id='artist-img' src={data.image} alt='' />
+                    <p id='artist-bio'>{data.bio}</p>
                 </section>
 
                 <section id='right'>

@@ -1,5 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useDispatch, useSelector } from 'react-redux'
+import { createArtist, reducer } from './reducer'
 import Home from "./pages/Home";
 import Header from './layouts/Header';
 import ArtistView from "./pages/ArtistView";
@@ -10,6 +12,21 @@ import './app.css'
 
 
 const App = () => {
+
+  const dispatch = useDispatch()
+
+  useEffect(() => {
+    fetch("http://localhost:5000/artists")
+    .then((res) => res.json())
+    .then((json) => {
+      json.artists.map(artist => dispatch(createArtist(artist)))
+    })
+  }, [])
+
+  
+
+  const accounts = useSelector(state => state)
+  console.log(accounts)
 
   const artistData = [
     {
@@ -126,9 +143,9 @@ const App = () => {
         <BrowserRouter>
         <Routes>
           <Route path="/" element={<Header />} >
-            <Route index element={<Home artistData={artistData} />} />
-            <Route path="artists" element={<Artists artistData={artistData} />} />
-            <Route path="artists/:name" element={<ArtistView artistData={artistData} />} />    
+            <Route index element={<Home />} />
+            <Route path="artists" element={<Artists />} />
+            <Route path="artists/:name" element={<ArtistView />} />    
           </Route>
           <Route path="*" element={<h1>404 Page Not Found</h1>} ></Route>
         </Routes>
